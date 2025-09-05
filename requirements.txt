@@ -1,0 +1,4 @@
+streamlit
+bcrypt
+pandas
+sqlite3

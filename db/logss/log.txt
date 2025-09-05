@@ -1,0 +1,100 @@
+# 🗓️ Daily Log – 2025-08-21
+
+## ✅ Tasks Completed
+- Created virtual environment and activated it in VS Code.
+- Installed Streamlit and verified setup.
+- Created `app.py` with basic chatbot UI.
+
+## 🧠 Learnings
+- Resolved PowerShell execution policy issue.
+- Understood how to link environment to VS Code interpreter.
+
+## 🐞 Issues Faced
+- Activation blocked by PowerShell policy.
+- Streamlit failed to run due to missing `app.py`.
+
+## 🔧 Next Steps
+- Add login/authentication flow.
+- Connect SQLite database for user sessions.
+- Style Streamlit UI with themes or custom CSS.
+
+import streamlit as st
+
+st.title("Wellness Assistant Chatbot")
+user_input = st.text_input("You:")
+if user_input:
+    st.write("Bot:", "I'm here to help you feel better!")
+
+
+    import streamlit as st
+
+st.set_page_config(page_title="Global Wellness Chatbot", layout="centered")
+
+st.title("Global Wellness Chatbot")
+
+# Sidebar navigation
+option = st.sidebar.selectbox("Choose Action", ["Login", "Register"])
+
+if option == "Login":
+    st.subheader("Login")
+    username = st.text_input("Username")
+    password = st.text_input("Password", type="password")
+    remember = st.checkbox("Remember Me")
+    
+    if st.button("Login"):
+        # Placeholder logic
+        st.success(f"Welcome back, {username}!")
+
+elif option == "Register":
+    st.subheader("Register")
+    new_username = st.text_input("Create Username")
+    new_password = st.text_input("Create Password", type="password")
+    confirm_password = st.text_input("Confirm Password", type="password")
+    
+    if st.button("Register"):
+        if new_password == confirm_password:
+            # Placeholder logic
+            st.success(f"Account created for {new_username}")
+        else:
+            st.error("Passwords do not match")
+
+
+
+/wellness_chatbot
+    ├── app.py                # Main application logic
+    ├── database.py           # Database handling functions
+    ├── auth.py               # Authentication-related functions
+    ├── profile.py            # Profile management functions
+    ├── requirements.txt       # Dependencies
+    └── utils.py              # Utility functions
+
+
+
+    Authentication Features
+1. JWT-based Secure Authentication
+Use the PyJWT library to handle token encoding and decoding.
+2. Password Hashing
+Use the bcrypt library for securely hashing passwords.
+3. Session Management
+Implement session management with streamlit.session_state.
+4. UI Components
+Create forms for login, registration, password reset.
+
+Profile Features
+1. Form Fields
+Create form fields in Streamlit for capturing user's name, age group, and language preference.
+2. Save Profile Functionality
+Integrate SQLite to store user profile information.
+Code Snippet for Profile Management (profile.py)
+python
+18 lines
+Click to expand
+import sqlite3
+...
+Expected Outcomes
+1. Functional User Authentication System
+Implement login, registration, remember me, and forgot password functionalities in app.py using Streamlit.
+2. Profile Management
+Allow users to update their profiles and store the preferences in the database.
+3. Language Preference Support
+Tailor chatbot responses based on the selected language and dynamically change UI elements to accommodate this.

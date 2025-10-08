@@ -87,12 +87,14 @@ def forgot_password_ui():
                 st.error("⚠️ No account found with that email.")
 
 def logout():
-    for key in ["user_id", "email", "username", "age_group", "language", "page", "remember_me"]:
-        st.session_state.pop(key, None)
-    st.success("👋 Logged out successfully.")
+    for key in list(st.session_state.keys()):
+        del st.session_state[key]
+    st.session_state.page = "home"
+    st.session_state.show_admin_tools = False
+
 
 def set_session(user):
-    st.session_state.page = "profile"
+    st.session_state.page = "chatbot"
     st.session_state.user_id = user[0]
     st.session_state.email = user[1]
     st.session_state.username = user[3]

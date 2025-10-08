@@ -1,0 +1,269 @@
+text,label
+Hello!,greeting
+Hi,greeting
+Hey there,greeting
+Hello!,greeting
+Hi,greeting
+Hey there,greeting
+Good morning,greeting
+Good evening,greeting
+How are you,greeting
+Namaste,greeting
+नमस्ते,greeting
+Vanakkam,greeting
+Sat Sri Akal,greeting
+Salam,greeting
+What's up,greeting
+Hiiiii,greeting
+Greetings,greeting
+Sup?,greeting
+Yo!,greeting
+Bonjour,greeting
+Any updates?,greeting
+Hello bot,greeting
+Hola,greeting
+Hi wellness assistant,greeting
+Good to see you,greeting
+Hi friend,greeting
+Hey wellness coach,greeting
+Ciao,greeting
+Nice to meet you,greeting
+Ready to chat,greeting
+Hi how can you help?,greeting
+Hey! Wellness bot,greeting
+Shubh prabhat,greeting
+नमस्कार,greeting
+Hi there,greeting
+Alo,greeting
+Greetings to you,greeting
+Hey wellness,greeting
+I have a fever,symptom
+My head hurts,symptom
+I feel dizzy,symptom
+I'm coughing,symptom
+My throat is sore,symptom
+I'm sneezing a lot,symptom
+I am tired all day,symptom
+मुझे सिरदर्द है,symptom
+मैं थक गया हूँ,symptom
+Mujhe bukhar hai,symptom
+Mujhe khansi ho rahi hai,symptom
+I have stomach pain,symptom
+खांसी आ रही है,symptom
+My vision is blurry,symptom
+Pain in my back,symptom
+I feel stressed,symptom
+I'm not sleeping well,symptom
+My arm hurts,symptom
+My skin has a rash,symptom
+I'm sweating,symptom
+My legs are shaking,symptom
+Ache in my shoulder,symptom
+I can't smell anything,symptom
+Shortness of breath,symptom
+मैं अच्छा महसूस नहीं कर रहा हूँ,symptom
+I have chills,symptom
+Sneezing constantly,symptom
+Loss of appetite,symptom
+My body hurts,symptom
+Feeling weak,symptom
+High temperature,symptom
+Shivering all night,symptom
+I have a cold,symptom
+Jaw pain,symptom
+Difficulty swallowing,symptom
+What to do for burns,first_aid
+Stop bleeding,first_aid
+Choking help,first_aid
+First aid for fever,first_aid
+How to treat a cut,first_aid
+Sprain treatment tips,first_aid
+Help for sunburns,first_aid
+बर्न पर क्या करें?,first_aid
+खून बहना बंद कैसे करें?,first_aid
+Choking kya kare?,first_aid
+Help for insect bite,first_aid
+What is the remedy for nosebleed,first_aid
+Band-aid use tips,first_aid
+How to clean a wound,first_aid
+Remedy for scalds,first_aid
+How to use ice pack,first_aid
+RICE method for injury,first_aid
+मुझे चोट लग गई है,first_aid
+Pain relief for sprains,first_aid
+How to wrap a sprained ankle,first_aid
+Treating a burn quickly,first_aid
+What to do if I faint,first_aid
+Poisoning emergency help,first_aid
+पुराना घाव है क्या करूं?,first_aid
+Swelling after injury,first_aid
+How to deal with bruises,first_aid
+Antiseptic ointment use,first_aid
+Cleaning a minor wound,first_aid
+Fever first aid instructions,first_aid
+Ice pack for swelling,first_aid
+I need first aid advice,first_aid
+Immediate action for minor cut,first_aid
+How to help someone who drowned,first_aid
+Give me some diet advice,wellness_tip
+How to stay fit?,wellness_tip
+Tips for stress reduction?,wellness_tip
+Daily exercise suggestions,wellness_tip
+Foods to avoid for health,wellness_tip
+Balanced diet tips,wellness_tip
+What is a good sleep routine?,wellness_tip
+क्या स्वास्थ्य के लिए योग अच्छा है?,wellness_tip
+Healthy habits for adults,wellness_tip
+Ways to drink more water,wellness_tip
+Meditation tips,wellness_tip
+Wellness tips for teens,wellness_tip
+Stress management activities,wellness_tip
+How to maintain weight,wellness_tip
+Which vitamins are important,wellness_tip
+Skincare advice,wellness_tip
+Swasth rehne ke upay,wellness_tip
+Overcoming negative thoughts,wellness_tip
+Exercises for flexibility,wellness_tip
+Boost immunity advice,wellness_tip
+क्या चाय स्वास्थ्य के लिए ठीक है?,wellness_tip
+Healthy snacks ideas,wellness_tip
+How to prevent injury,wellness_tip
+Morning routine for energy,wellness_tip
+Quick fitness tips,wellness_tip
+How to improve posture,wellness_tip
+Easy stress busters,wellness_tip
+Yoga or gym better?,wellness_tip
+Mindfulness practices,wellness_tip
+Suggest a wellness tip,wellness_tip
+Simple ways to relax,wellness_tip
+Power nap advantages,wellness_tip
+Bye,goodbye
+Goodbye,goodbye
+See you later,goodbye
+Take care,goodbye
+Catch you soon,goodbye
+Shubhratri,goodbye
+अलविदा,goodbye
+Nice talking to you,goodbye
+Farewell,goodbye
+Signing off,goodbye
+I'm going now,goodbye
+Have a nice day,goodbye
+Talk to you next time,goodbye
+See you tomorrow,goodbye
+All the best,goodbye
+See you soon,goodbye
+Thanks and bye,goodbye
+Hasta la vista,goodbye
+Laters,goodbye
+Good night,goodbye
+Take care buddy,goodbye
+Okay bye,goodbye
+Goodbye bot,goodbye
+Stay healthy,goodbye
+Bye wellness assistant,goodbye
+I'll chat later,goodbye
+Khuda hafiz,goodbye
+Bye for now,goodbye
+Au revoir,goodbye
+Hasta luego,goodbye
+Take care wellness bot,goodbye
+General health info please,general_query
+Tell me something useful,general_query
+How do I get healthier?,general_query
+Can you help me become fit?,general_query
+What should I eat today?,general_query
+How can I sleep better?,general_query
+Do I need a medical checkup?,general_query
+Can you help with my wellness?,general_query
+What is a balanced diet?,general_query
+How do I prevent getting sick?,general_query
+मुझे अपनी सेहत सुधारनी है,general_query
+Home remedies for cold,general_query
+Can you guide my health plan?,general_query
+I want to improve my habits,general_query
+Should I exercise daily?,general_query
+Any tips for hydration?,general_query
+Why is sleep important?,general_query
+Tell me a healthy recipe,general_query
+Guidance for starting yoga,general_query
+Advice for students,general_query
+What are common nutrients?,general_query
+Is daily walking enough?,general_query
+Which fruits are best?,general_query
+Advice for office workers,general_query
+How to keep my kids healthy?,general_query
+Any health tips for elders?,general_query
+How to boost metabolism?,general_query
+What’s a wellness plan?,general_query
+Explain body mass index,general_query
+Why is breakfast necessary?,general_query
+Useful wellness info please,general_query
+Tell me about asthma,disease_advice
+What should I know about diabetes,disease_advice
+Give me info on dengue,disease_advice
+How to manage hypertension,disease_advice
+Tell me about migraine,disease_advice
+What is the treatment for malaria,disease_advice
+Explain asthma symptoms,disease_advice
+How to prevent asthma,disease_advice
+नमस्ते,greeting
+शुभ प्रभात,greeting
+कैसे हो,greeting
+सलाम,greeting
+हैलो वेलनेस,greeting
+आपका दिन शुभ हो,greeting
+नमस्कार,greeting
+गुड मॉर्निंग,greeting
+सुप्रभात,greeting
+हाय,greeting
+मुझे सिरदर्द है,symptom
+मुझे बुखार है,symptom
+मेरे पेट में दर्द है,symptom
+मुझे चक्कर आ रहे हैं,symptom
+मेरी आंखों के सामने अंधेरा छा जाता है,symptom
+मुझे बहुत कमजोरी लग रही है,symptom
+बार-बार छींक आ रही है,symptom
+मेरी पीठ में दर्द है,symptom
+मैं ठीक महसूस नहीं कर रहा हूँ,symptom
+मेरी त्वचा में खुजली है,symptom
+खून बहना बंद कैसे करें?,first_aid
+जलने पर क्या करें?,first_aid
+कट लगने पर तुरंत क्या उपाय करें?,first_aid
+स्प्रेइन के लिए क्या करें?,first_aid
+अगर कोई बेहोश हो जाए तो क्या करें?,first_aid
+नाक से खून आने पर क्या करें?,first_aid
+सांस रुक जाए तो मदद कैसे करें?,first_aid
+माइनर चोट के लिए फर्स्ट एड,first_aid
+दवा लगाने का तरीका बताएं,first_aid
+संक्रमण रोकने के उपाय,first_aid
+स्वस्थ रहने के सुझाव दीजिए,wellness_tip
+डाइट कैसे सुधारें?,wellness_tip
+तनाव कम करने के उपाय बताइए,wellness_tip
+रोज़ योग करना फायदेमंद है?,wellness_tip
+रोजाना व्यायाम कैसे करें?,wellness_tip
+दिनभर ऊर्जावान कैसे रहें?,wellness_tip
+नींद बेहतर करने के तरीके?,wellness_tip
+अगर वजन कम करना है तो क्या करें?,wellness_tip
+सेहतमंद नाश्ता क्या है?,wellness_tip
+योग या जिम कौन बेहतर है?,wellness_tip
+अलविदा,goodbye
+फिर मिलेंगे,goodbye
+धन्यवाद और अलविदा,goodbye
+शुभ रात्रि,goodbye
+फिर बात करेंगे,goodbye
+आपका दिन शुभ हो,goodbye
+अब चलता हूँ,goodbye
+बाय,greeting
+ख्याल रखना,goodbye
+फिर मिलेंगे दोस्त,goodbye
+मुझे स्वास्थ्य जानकारी चाहिए,general_query
+क्या आप मेरी मदद कर सकते हैं?,general_query
+घर पर बुखार का इलाज,general_query
+दिनभर ऊर्जावान कैसे रहें?,general_query
+स्वस्थ जीवन की सलाह दें,general_query
+डाइट टिप्स बताएं,general_query
+मुझे अपनी आदतें सुधारनी हैं,general_query
+आपको कौन-कौन सी बीमारियों के बारे में जानकारी है?,general_query
+बच्चों के लिए स्वास्थ्य सुझाव,general_query
+योग कैसे शुरू करें?,general_query

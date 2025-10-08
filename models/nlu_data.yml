@@ -1,0 +1,1474 @@
+version: '2.0'
+nlu:
+- intent: greet
+  examples: |
+    - Hi
+    - Hello
+    - Hey
+    - Good morning
+    - Good evening
+    - Howdy partner
+    - What's up?
+    - Yo
+    - Hi bot
+    - Hey chatbot
+    - Greetings
+    - Nice to meet you
+    - Start
+    - Let's begin
+    - Hello, can you help me?
+    - Is anyone there?
+    - Hi there
+    - Hey there
+    - Hey, how are you?
+    - Hello, good day
+    - Good afternoon
+    - Hey friend
+    - Can you help me?
+    - Please start
+    - Begin session
+    - Hey wellness bot
+    - Good to see you
+    - Let's get started
+    - I want to start
+    - Help me please
+    - Salutations
+    - How's it going?
+    - A good day to you
+    - You there?
+    - Let's chat
+    - I'm ready to start
+    - Can we talk?
+    - I need some help
+    - Hello assistant
+    - Let's do this
+    - I'd like to begin
+    - Can we get started?
+    - Are you ready?
+    - Let's go
+    - Initiate
+    - Hello there
+    - Good day to you
+    - How are things?
+    - I have a question
+    - Can you assist me?
+    - Are you online?
+    - Talk to me
+    - I'm here
+    - Fire away
+    - Ready when you are
+    - Let's kick things off
+    - I need your assistance
+    - Can you hear me?
+    - Is this thing on?
+    - What's happening?
+    - 'sup
+    - Howdy
+    - G'day
+    - Morning
+    - Afternoon
+    - Evening
+    - Hello friend
+    - How have you been?
+    - I need to ask something
+    - Can you provide some info?
+    - Are you available?
+    - Let's have a conversation
+    - I'm ready to go
+    - Let's get this show on the road
+    - I require some help
+    - Is anybody home?
+    - Speak to me
+    - I am present
+    - Go ahead
+    - Waiting for your input
+    - Shall we begin?
+    - I need help with something
+    - Are you active?
+    - Let's have a chat
+    - I am ready to begin
+    - Let's start the process
+    - I need some guidance
+    - Is there a bot here?
+    - Tell me something
+    - I'm waiting
+    - I'm all ears
+    - Let's get down to business
+    - I could use your help
+    - Are you working?
+    - Can we have a talk?
+    - I'm good to go
+    - Let's get rolling
+    - Can you help me out?
+    - Is this bot active?
+    - Let's converse
+    - I'm prepared to start
+    - Let's start this thing
+    - I need some support
+    - Is there an assistant available?
+    - What do you have for me?
+    - I am listening
+    - Ready for my question
+    - Let's start the conversation
+    - I need your expertise
+    - Are you functioning?
+    - Can we speak?
+    - I'm all set
+    - Let's get a move on
+    - Can you lend me a hand?
+    - Is this bot online?
+    - Hello, is this the wellness bot?
+    - I'd like to ask a question
+    - Let's start talking
+    - Can I get some help here?
+    - Hi, are you a bot?
+    - Good day, can we chat?
+    - I'm here to talk
+    - I'm ready for you
+    - Let's start our chat
+    - I have some questions for you
+    - Can you give me some information?
+    - Are you there to help?
+    - Let's begin our conversation
+    - I'm ready to ask
+    - Let's get started with this
+    - I need some assistance with a query
+    - Is this the right place to ask?
+    - Let's begin the chat
+    - I am here to ask for help
+    - What's good?
+    - How's your day?
+    - Is anyone available to chat?
+    - I'd like to start a new conversation
+    - Can you help me with a problem?
+    - I am here now
+    - Let's get this started
+    - I'm looking for some information
+    - Are you able to assist?
+    - Let's talk now
+    - I'm ready for my first question
+    - Let's kick this off
+    - I have a query
+    - Can you guide me?
+    - Are you a virtual assistant?
+
+- intent: goodbye
+  examples: |
+    - Bye
+    - Goodbye
+    - See you later
+    - Take care
+    - Catch you later
+    - See ya
+    - Farewell
+    - Have a good one
+    - Talk to you soon
+    - I'm out
+    - Stop
+    - End conversation
+    - That's all for now
+    - I'm done
+    - Thanks, bye
+    - Ok I'm finished
+    - I have to go
+    - All done
+    - That's it
+    - End chat
+    - Bye bye
+    - Catch you later bot
+    - I'm leaving
+    - Session over
+    - Quit
+    - Terminate chat
+    - I'm finished here
+    - Okay, goodbye
+    - End this
+    - Done for now
+    - Until next time
+    - I've got to run
+    - That's a wrap for me
+    - I'm signing off
+    - Got to go
+    - Disconnect
+    - Thanks for everything, bye
+    - It was nice talking to you
+    - I am finished with my questions
+    - Please end the session
+    - I'm done talking
+    - That will be all
+    - I have no more questions
+    - Let's end it here
+    - I need to sign off
+    - Thanks for your help, goodbye
+    - Got to jet
+    - I'm off
+    - This conversation is over
+    - I have to leave now
+    - That's the end of it
+    - Okay, I'm done
+    - It's time for me to go
+    - All questions answered
+    - Conclude this chat
+    - It's been a pleasure, bye
+    - I must be going
+    - That's all from my side
+    - I'm logging off
+    - I'm out of here
+    - We're done here
+    - I'm signing out
+    - Got to take off
+    - I'm gone
+    - This chat is finished
+    - I need to head out
+    - That concludes our business
+    - Alright, I'm done
+    - Time to go
+    - I have everything I need
+    - Terminate this session
+    - It was great chatting, bye
+    - I have to get going
+    - Nothing more from me
+    - Logging out
+    - See you around
+    - We've finished
+    - I'm exiting now
+    - Have a nice day, bye
+    - I must leave
+    - That's everything
+    - I'm closing the chat
+    - Time to head off
+    - I've got what I needed
+    - Let's stop here
+    - It was a good talk, bye
+    - I must be on my way
+    - I have no further inquiries
+    - Exiting conversation
+    - Catch you on the flip side
+    - We are done
+    - I'm closing this window
+    - Have a great day, goodbye
+    - I need to depart
+    - That's the last of it
+    - I am closing this session
+    - Time to make a move
+    - My questions are answered
+    - Let's end the conversation
+    - It was nice speaking with you, bye
+    - I should go
+    - I have nothing else to ask
+    - I'm ending the chat
+    - Take it easy
+    - We have concluded
+    - I'm leaving the chat
+    - Have a good night, bye
+    - I must depart now
+    - That's all the info I need
+    - Let's wrap this up
+    - It was a pleasure talking, goodbye
+    - Time for me to leave
+    - I'm all good, thanks
+    - Nothing else for me
+    - Let's call it a day
+    - I'm finished asking questions
+    - Please close the chat
+    - I need to go now
+    - Thanks for the chat, bye now
+    - I'm heading out
+    - This is the end of our conversation
+    - I must go now
+    - That's all the help I needed
+    - Okay, I'm logging off
+    - It was nice chatting
+    - I'm done for the day
+    - Let's end this conversation now
+    - It's been real, bye
+    - I have to take off
+    - I have no more queries
+    - I'm exiting the chat
+    - See you later, alligator
+    - We're finished here
+    - I'm closing the conversation
+    - Have a good one, bye
+    - I have to say goodbye
+    - That's all I needed
+    - I'm ending this now
+    - Time to say goodbye
+    - I've got my answers
+    - Let's finish up
+    - It was a pleasure, goodbye
+    - I have to go, thanks
+    - Nothing further from me
+    - I am logging out now
+    - See you next time
+    - We have finished our chat
+    - I'm leaving this chat
+    - Have a great evening, bye
+    - I must be off
+    - That's all the information I require
+    - Let's conclude this
+    - It was nice talking to you, goodbye
+
+- intent: chitchat
+  examples: |
+    - How are you doing?
+    - What's your name?
+    - Tell me a fun fact
+    - What can you do?
+    - Who made you?
+    - Are you a robot?
+    - Tell me something interesting
+    - I'm bored
+    - Let's talk about something
+    - What are your hobbies?
+    - Do you have feelings?
+    - You're a smart bot
+    - Thanks for the help
+    - That's cool
+    - Tell me a [joke](topic)
+    - What's new?
+    - Are you human?
+    - How does this work?
+    - What are you doing?
+    - Do you like music?
+    - Tell me trivia
+    - Can you chat with me?
+    - Say something funny
+    - You are nice
+    - Do you sleep?
+    - Where do you live?
+    - Are you alive?
+    - Do you eat?
+    - Do you watch movies?
+    - Chat with me please
+    - Can you tell me a [story](topic)?
+    - What is the [weather](topic) like?
+    - You're very helpful
+    - I appreciate your assistance
+    - How old are you?
+    - Do you have a favorite color?
+    - Can you think?
+    - Are you a program?
+    - What is your purpose?
+    - That's interesting
+    - Can you tell me something I don't know?
+    - What are you made of?
+    - You're pretty smart for a bot
+    - I'm just killing time
+    - Let's have a random conversation
+    - Do you get updates?
+    - Are you always online?
+    - What's your favorite book?
+    - Do you have a personality?
+    - That's amazing
+    - I'm impressed
+    - Tell me a [riddle](topic)
+    - What's on your mind?
+    - Are you a real person?
+    - How were you created?
+    - What are you capable of?
+    - Do you enjoy your job?
+    - Tell me a [poem](topic)
+    - Can you be my friend?
+    - You're quite clever
+    - You're doing a great job
+    - I'm just browsing
+    - Let's talk about life
+    - Do you learn from conversations?
+    - Are you connected to the internet?
+    - What's your favorite movie?
+    - Do you have a sense of humor?
+    - That's fascinating
+    - Wow, that's impressive
+    - Tell me a [quote](topic)
+    - What are you thinking about?
+    - Are you an AI?
+    - Who is your developer?
+    - What are your limitations?
+    - Do you ever get tired?
+    - Tell me a [fun fact about animals](topic)
+    - Can you help me practice a language?
+    - You're very intelligent
+    - Thank you for your help
+    - I'm just passing time
+    - Let's chat about anything
+    - Do you get smarter over time?
+    - Are you always available?
+    - What's your favorite song?
+    - Do you have emotions?
+    - That's remarkable
+    - I'm amazed by your abilities
+    - Tell me a [historical fact](topic)
+    - What's your opinion on things?
+    - Are you sentient?
+    - Who trained you?
+    - What can you not do?
+    - Do you ever shut down?
+    - Tell me a [science fact](topic)
+    - Can you recommend a book?
+    - You're a very good assistant
+    - Thanks for the information
+    - I'm just looking around
+    - Let's discuss something random
+    - How do you learn new things?
+    - Are you always on?
+    - What's your favorite TV show?
+    - Do you have a favorite food?
+    - That's incredible
+    - I'm blown away
+    - Tell me a [myth](topic)
+    - What are you up to?
+    - Are you conscious?
+    - Who are your creators?
+    - What are your capabilities?
+    - Do you have a favorite hobby?
+    - Tell me a [legend](topic)
+    - Can you be my companion?
+    - You're very knowledgeable
+    - You're a great help
+    - Just exploring your features
+    - Let's talk about the universe
+    - Do you have memory?
+    - Are you always learning?
+    - What's your favorite game?
+    - Do you have a favorite animal?
+    - That's outstanding
+    - I'm very impressed
+    - Tell me a [fable](topic)
+    - What are you working on?
+    - Are you self-aware?
+    - Who built you?
+    - What can you do for me?
+    - Do you have a favorite pastime?
+    - Tell me a [tall tale](topic)
+    - Can we be friends?
+    - You're very resourceful
+    - You've been a great help
+
+- intent: ask_first_aid
+  examples: |
+    - What to do for [severe bleeding](medical_condition)?
+    - How do I treat a [burn](medical_condition)?
+    - First aid for [snake bite](medical_condition)
+    - How to stop a [nosebleed](medical_condition)?
+    - please explain how to handle a [burn](medical_condition)?
+    - How can I handle a [nosebleed](medical_condition) urgently
+    - can u tell me how to handle first aid for a [snake bite](medical_condition)?
+    - Please tell me what to do for [severe bleeding](medical_condition)?
+    - Can you tell me how to handle a [burn](medical_condition)?
+    - explain first aid for [snake bite](medical_condition)?
+    - How can I handle a [nosebleed](medical_condition) now?
+    - what to do for a [burn](medical_condition)?
+    - how to treat a [burn](medical_condition) urgently
+    - how do I perform [CPR](medical_procedure) now
+    - How to handle a [fracture](medical_condition)?
+    - Could you please explain how to stop a [nosebleed](medical_condition)?
+    - how can I perform [cpr](medical_procedure) please
+    - Can you tell me what to do during a [seizure](medical_condition)?
+    - how to treat a [cut](medical_condition)?
+    - how to apply a [tourniquet](medical_procedure) now?
+    - What do I do for [burns](medical_condition)?
+    - How to use the [jaw-thrust maneuver](medical_procedure)?
+    - How do I help a [choking](medical_condition) person?
+    - first aid for [drowning](medical_condition)
+    - How to treat [third-degree burns](medical_condition)? please.
+    - What's the protocol for a [head injury](medical_condition)?
+    - my kid has a [splinter](medical_condition), what do I do
+    - How do I assist with a suspected [dislocation](medical_condition)?
+    - Steps for treating [hypothermia](medical_condition).
+    - What to do for an [allergic reaction](medical_condition)?
+    - How do you treat a [sprain](medical_condition)?
+    - First aid for a [heat stroke](medical_condition).
+    - What's the first aid for [poisoning](medical_condition)?
+    - How to manage a [fainting](medical_condition) episode?
+    - I need to know how to handle an [asthma attack](medical_condition).
+    - What's the first step for an [insect sting](medical_condition)?
+    - How to deal with a [broken tooth](medical_condition)?
+    - steps for treating a [jellyfish sting](medical_condition)?
+    - How to provide first aid for an [electric shock](medical_condition)?
+    - What do I do if someone has a [concussion](medical_condition)?
+    - How to treat a [blister](medical_condition) properly?
+    - First aid for a [bruise](medical_condition).
+    - procedure for a [chemical burn](medical_condition)
+    - How do you help someone with [frostbite](medical_condition)?
+    - What is the first aid for a [pulled muscle](medical_condition)?
+    - How to treat [sunburn](medical_condition)?
+    - what do I do for an [eye injury](medical_condition)?
+    - how to handle a [minor cut](medical_condition)
+    - first aid steps for a [bee sting](medical_condition).
+    - What to do for a suspected [broken bone](medical_condition)?
+    - how to treat an [animal bite](medical_condition)
+    - correct way to perform the [Heimlich maneuver](medical_procedure)?
+    - How to deal with a [scrape](medical_condition)?
+    - first aid for [heat exhaustion](medical_condition).
+    - What to do if someone ingests a [poisonous substance](medical_condition)?
+    - how to properly clean a [wound](medical_condition)
+    - signs of a [stroke](medical_condition) and what to do?
+    - How to handle a [diabetic emergency](medical_condition)?
+    - What is the first aid for a [spider bite](medical_condition)?
+    - how to treat a [twisted ankle](medical_condition)?
+    - What to do for a [toothache](medical_condition) until I can see a dentist?
+    - First aid for a [cramp](medical_condition).
+    - how to handle a [panic attack](medical_condition) from a first aid perspective
+    - what to do for a [scald](medical_condition)?
+    - How to use an [epipen](medical_procedure)?
+    - what is the recovery position
+    - First aid for a [tick bite](medical_condition).
+    - How to treat a [minor burn](medical_condition) at home?
+    - suspected [spinal injury](medical_condition)
+    - how to make a temporary [sling](medical_procedure)
+    - first aid for a [black eye](medical_condition)?
+    - How to deal with [dehydration](medical_condition)?
+    - What to do for a [splinter](medical_condition) under a fingernail?
+    - First aid for a [nose injury](medical_condition).
+    - How to treat a [stye](medical_condition)?
+    - what to do for a [paper cut](medical_condition)
+    - How to help someone who is [hyperventilating](medical_condition)?
+    - First aid for a [pulled hamstring](medical_condition).
+    - What to do for a [charley horse](medical_condition)?
+    - How to treat a [carpet burn](medical_condition)?
+    - first aid for a [congested chest](medical_condition)?
+    - How to deal with a [sunken tooth](medical_condition)?
+    - what to do for a [blood blister](medical_condition)
+    - How to handle a [foreign object in the ear](medical_condition)?
+    - First aid for a [sore back](medical_condition).
+    - what to do for a [canker sore](medical_condition)
+    - how to treat a [razor burn](medical_condition)
+    - first aid for a [jammed finger](medical_condition)?
+    - How to deal with a [swollen lip](medical_condition)?
+    - what to do for a [hiccup attack](medical_condition)
+    - How do I handle a [severe allergic reaction](medical_condition)?
+    - first aid for a [dislocated shoulder](medical_condition)?
+    - how to treat a [deep cut](medical_condition)
+    - what to do for a [suspected heart attack](medical_condition)?
+    - First aid for a [severe headache](medical_condition).
+    - How to deal with a [seizure](medical_condition) in an adult?
+    - first aid for a [broken nose](medical_condition)?
+    - How to treat a [second-degree burn](medical_condition)?
+    - what to do for a [suspected poisoning](medical_condition)?
+    - first aid for a [severe asthma attack](medical_condition).
+    - How to handle a [concussion](medical_condition) in a child?
+    - what's the first aid for a [bee sting allergy](medical_condition)?
+    - How to treat a [puncture wound](medical_condition)?
+    - what to do for a [suspected stroke](medical_condition)?
+    - First aid for a [severe cramp](medical_condition).
+    - how to deal with a [panic attack](medical_condition) in a public place
+    - first aid for a [severe sunburn](medical_condition)?
+    - how to treat a [chemical splash in the eye](medical_condition)?
+    - What to do for a [suspected broken leg](medical_condition)?
+    - First aid for a [dog bite](medical_condition).
+    - How to handle a [choking infant](medical_condition)?
+    - first aid for a [severe nosebleed](medical_condition)?
+    - how to treat a [major electrical burn](medical_condition)
+    - what to do for a [suspected spinal cord injury](medical_condition)?
+    - first aid for a [severe allergic reaction to food](medical_condition).
+    - How to handle a [grand mal seizure](medical_condition)?
+    - first aid for a [severe cut on the hand](medical_condition)?
+    - how to treat a [third-degree burn](medical_condition) while waiting for help
+    - what to do for a [suspected overdose](medical_condition)?
+    - first aid for a [severe asthma exacerbation](medical_condition).
+    - how to handle a [head injury with loss of consciousness](medical_condition)
+    - first aid for a [severe insect bite reaction](medical_condition)?
+    - how to treat a [deep laceration](medical_condition)
+    - what to do for a [suspected heart palpitation](medical_condition)?
+    - first aid for a [severe muscle strain](medical_condition).
+    - how to deal with a [severe panic attack with hyperventilation](medical_condition)
+    - first aid for a [severe chemical burn on the skin](medical_condition)?
+    - how to treat a [severe eye injury](medical_condition)
+    - what to do for a [suspected broken arm](medical_condition)?
+    - First aid for a [cat bite](medical_condition).
+    - How to handle a [choking adult](medical_condition)?
+    - first aid for a [severe nosebleed that won't stop](medical_condition)?
+    - How to treat a [severe thermal burn](medical_condition)?
+    - what to do for a [suspected neck injury](medical_condition)?
+
+- intent: inform_symptom
+  examples: |
+    - I have a [fever](symptom) and [cough](symptom)
+    - I'm [vomiting](symptom) and have [diarrhea](symptom)
+    - I have a [rash](symptom) and [itching](symptom)
+    - I feel very [tired](symptom) and [weak](symptom)
+    - I have a [sore throat](symptom) and [runny nose](symptom)
+    - I feel [breathless](symptom) and [dizzy](symptom)
+    - I have sharp [stomach pain](symptom)
+    - My [joints](symptom) hurt badly
+    - I have severe [headache](symptom) and [nausea](symptom)
+    - I can't stop [sneezing](symptom)
+    - I have [dark urine](symptom) and [nausea](symptom)
+    - My [muscles are aching](symptom) a lot
+    - I have [chest pain](symptom) and [shortness of breath](symptom)
+    - I have a [high fever](symptom) and [chills](symptom)
+    - I feel [cold and shivery](symptom) with [sweats](symptom)
+    - I have [loss of appetite](symptom) and [fatigue](symptom)
+    - I have [swollen lymph nodes](symptom) and [fever](symptom)
+    - I'm experiencing sudden [weight loss](symptom) and [tiredness](symptom)
+    - I have [persistent cough](symptom) for weeks
+    - My [skin is yellowish](symptom) and [eyes too](symptom)
+    - I have nodal [skin eruptions](symptom) and [itching](symptom)
+    - I'm [coughing up blood](symptom)
+    - I'm feeling [nauseous](symptom) and [dizzy](symptom)
+    - My [throat is irritated](symptom) with [phlegm](symptom)
+    - I'm experiencing [frequent urination](symptom) and [thirst](symptom)
+    - I have a [burning sensation when urinating](symptom)
+    - I'm [fainting](symptom) sometimes, feeling [lightheaded](symptom)
+    - I have [red swollen skin that's warm to touch](symptom)
+    - I have [blurred vision](symptom) and [headaches](symptom)
+    - My [hands are numb](symptom) sometimes
+    - There's a [throbbing pain](sym_ptom) in my [temple](body_part)
+    - I'm feeling really [bloated](symptom) after eating
+    - My [back aches](symptom) constantly
+    - I have [difficulty swallowing](symptom)
+    - There is a [lump](symptom) on my neck
+    - I'm suffering from [insomnia](symptom)
+    - My [heart is racing](symptom)
+    - I've been feeling [depressed](symptom) for a [month](duration)
+    - My [feet are swollen](symptom)
+    - I'm having [night sweats](symptom)
+    - I've got a [tingling sensation](symptom) in my [fingers](body_part)
+    - My [stomach feels bloated](symptom)
+    - I have [unexplained bruises](symptom)
+    - I'm experiencing [memory loss](symptom)
+    - There's a [ringing in my ears](symptom)
+    - I have [dry, itchy eyes](symptom)
+    - I'm feeling [constantly cold](symptom)
+    - I have a [metallic taste](symptom) in my mouth
+    - My [hair is falling out](symptom)
+    - I have a [pain in my lower back](symptom)
+    - I'm feeling [irritable](symptom) and [moody](symptom)
+    - I have [cramps](symptom) in my [legs](body_part)
+    - I'm experiencing [heart palpitations](symptom)
+    - My [voice is hoarse](symptom)
+    - I have a [pounding headache](symptom)
+    - I'm feeling [lethargic](symptom)
+    - I have a [lump in my throat](symptom)
+    - I'm feeling [anxious](symptom) all the time
+    - I have a [painful rash](symptom) on my [arm](body_part)
+    - I'm experiencing [short-term memory problems](symptom)
+    - I have [swollen ankles](symptom)
+    - I'm feeling [disoriented](symptom)
+    - I have a [persistent dry cough](symptom)
+    - My [skin is very dry](symptom)
+    - I have a [sharp pain in my side](symptom)
+    - I'm feeling [overly emotional](symptom)
+    - I have a [stiff neck](symptom)
+    - I'm experiencing [blurry vision](symptom) at night
+    - My [gums are bleeding](symptom)
+    - I have a [loss of smell](symptom)
+    - I'm feeling [constipated](symptom)
+    - I have a [tingling in my feet](symptom)
+    - I'm experiencing [hot flashes](symptom)
+    - My [urine is cloudy](symptom)
+    - I have a [sore tongue](symptom)
+    - I'm feeling [restless](symptom)
+    - I have a [pain behind my eyes](symptom)
+    - I'm experiencing [muscle spasms](symptom)
+    - My [nails are brittle](symptom)
+    - I have a [decreased appetite](symptom)
+    - I'm feeling [confused](symptom)
+    - I have a [pain in my hip](symptom)
+    - I'm experiencing [mood swings](symptom)
+    - My [eyes are watery](symptom)
+    - I have a [loss of taste](symptom)
+    - I'm feeling [bloated](symptom) and [gassy](symptom)
+    - I have a [pins and needles](symptom) sensation
+    - I'm experiencing [cold sweats](symptom)
+    - My [stools are black](symptom)
+    - I have a [sore jaw](symptom)
+    - I'm feeling [paranoid](symptom)
+    - I have a [pain in my chest when I breathe](symptom)
+    - I'm experiencing [difficulty concentrating](symptom)
+    - My [skin is peeling](symptom)
+    - I have an [increased appetite](symptom)
+    - I'm feeling [agitated](symptom)
+    - I have a [pain in my knee](symptom)
+    - I'm experiencing [vivid dreams](symptom)
+    - My [eyelid is twitching](symptom)
+    - I have a [bad breath](symptom) that won't go away
+    - I'm feeling [lightheaded](symptom) when I stand up
+    - I have a [dry mouth](symptom)
+    - I'm experiencing [hair thinning](symptom)
+    - My [body feels heavy](symptom)
+    - I have a [pain in my heel](symptom)
+    - I'm feeling [emotionally numb](symptom)
+    - My [joints are stiff](symptom) in the morning
+    - I have a [runny nose](symptom) that doesn't stop
+    - I'm experiencing [night terrors](symptom)
+    - My [skin is pale](symptom)
+    - I have a [swollen tongue](symptom)
+    - I'm feeling [hopeless](symptom)
+    - I have a [pain in my shoulder](symptom)
+    - I'm experiencing [flashbacks](symptom)
+    - My [urine has a strong smell](symptom)
+    - I have a [sore spot on my scalp](symptom)
+    - I'm feeling [detached from reality](symptom)
+    - I have a [pain in my elbow](symptom)
+    - I'm experiencing [intrusive thoughts](symptom)
+    - My [skin is sensitive to touch](symptom)
+    - I have a [loss of coordination](symptom)
+    - I'm feeling [worthless](symptom)
+    - I have a [pain in my wrist](symptom)
+    - I'm experiencing [hallucinations](symptom)
+    - My [body is shaking](symptom)
+    - I have a [pain in my ankle](symptom)
+    - I'm feeling [guilty](symptom) for no reason
+    - I have a [loss of balance](symptom)
+    - My [skin is clammy](symptom)
+    - I have a [pain in my foot](symptom)
+    - I'm feeling [irrationally angry](symptom)
+    - I have a [slurred speech](symptom)
+    - My [body temperature is low](symptom)
+    - I have a [pain in my toe](symptom)
+    - i hava a [fever](symptom) and a [cough](symptom)
+    - my only symptom is a [fever](symptom)
+    - i have just a [cough](symptom)
+    - feeling a bit of a [sore throat](symptom)
+    - got this nagging [headache](symptom)
+    - i feel [nauseous](symptom)
+    - i hv a [fever](symptom)
+    - i have a [fever](symptom) right now
+    - just dealing with a [rash](symptom)
+    - feeling [tired](symptom) today
+
+- intent: ask_disease_info
+  examples: |
+    - What is [malaria](disease)?
+    - Tell me about [diabetes](disease)
+    - What is [hypertension](disease)?
+    - What are the symptoms of the [flu](disease)?
+    - Explain [heart disease](disease)
+    - What causes [asthma](disease)?
+    - Give me information about [dengue](disease)
+    - Tell me about [pneumonia](disease)
+    - What is [jaundice](disease)?
+    - What do I need to know about [tuberculosis](disease)?
+    - What is [migraine](disease)?
+    - Tell me about [GERD](disease)
+    - What is [hypothyroidism](disease)?
+    - What causes [anemia](disease)?
+    - Tell me about [chickenpox](disease)
+    - What is [cholera](disease)?
+    - What causes [kidney stones](disease)?
+    - What is [hepatitis](disease)?
+    - Tell me about [obesity](disease)
+    - What is [lupus](disease)?
+    - Can you explain [arthritis](disease)?
+    - How is [dengue](disease) transmitted?
+    - What is the cause of [TB](disease)?
+    - What is the definition of [HIV](disease)?
+    - What is [sepsis](disease)?
+    - What is [measles](disease)?
+    - Tell me about [rotavirus](disease)
+    - What is [mononucleosis](disease)?
+    - What is [encephalitis](disease)?
+    - Give me info on [pneumonia](disease)
+    - I want to know about [celiac disease](disease)
+    - Can you describe [multiple sclerosis](disease)?
+    - What are the long term effects of [Lyme disease](disease)?
+    - Please explain [endometriosis](disease)
+    - I need information on [Crohn's disease](disease)
+    - What are the risk factors for [stroke](disease)?
+    - Tell me the symptoms of [meningitis](disease)
+    - How does [Alzheimer's](disease) progress?
+    - Can you give me a summary of [Parkinson's disease](disease)?
+    - What is [sickle cell anemia](disease)?
+    - What are the main symptoms of [fibromyalgia](disease)?
+    - Explain [psoriasis](disease) to me.
+    - What should I know about [gout](disease)?
+    - Tell me about [rosacea](disease).
+    - What is [shingles](disease)?
+    - Can you explain what [COPD](disease) is?
+    - I need to understand [atrial fibrillation](disease).
+    - What is [glaucoma](disease)?
+    - Tell me about [cataracts](disease).
+    - What is [macular degeneration](disease)?
+    - Can you explain [osteoporosis](disease)?
+    - I want to learn about [scoliosis](disease).
+    - What is [epilepsy](disease)?
+    - Tell me about [bipolar disorder](disease).
+    - What is [schizophrenia](disease)?
+    - Can you explain [obsessive-compulsive disorder](disease)?
+    - I need to know about [post-traumatic stress disorder](disease).
+    - What is [attention deficit hyperactivity disorder](disease)?
+    - Tell me about [autism spectrum disorder](disease).
+    - What is [Down syndrome](disease)?
+    - Can you explain [cystic fibrosis](disease)?
+    - I want to understand [muscular dystrophy](disease).
+    - What is [spina bifida](disease)?
+    - Tell me about [cerebral palsy](disease).
+    - What is [hemophilia](disease)?
+    - Can you explain [leukemia](disease)?
+    - I need to know about [lymphoma](disease).
+    - What is [melanoma](disease)?
+    - Tell me about [prostate cancer](disease).
+    - What is [breast cancer](disease)?
+    - Can you explain [lung cancer](disease)?
+    - I want to learn about [colon cancer](disease).
+    - What is [pancreatic cancer](disease)?
+    - Tell me about [ovarian cancer](disease).
+    - What is [cervical cancer](disease)?
+    - Can you explain [testicular cancer](disease)?
+    - I need to know about [kidney cancer](disease).
+    - What is [liver cancer](disease)?
+    - Tell me about [stomach cancer](disease).
+    - What is [esophageal cancer](disease)?
+    - Can you explain [thyroid cancer](disease)?
+    - I want to understand [brain cancer](disease).
+    - What is [bone cancer](disease)?
+    - Tell me about [skin cancer](disease).
+    - What is [oral cancer](disease)?
+    - Can you explain [throat cancer](disease)?
+    - I need to know about [gallbladder cancer](disease).
+    - What is [bladder cancer](disease)?
+    - Tell me about [uterine cancer](disease).
+    - What is [vaginal cancer](disease)?
+    - Can you explain [vulvar cancer](disease)?
+    - I want to learn about [penile cancer](disease).
+    - What is [anal cancer](disease)?
+    - Tell me about [rectal cancer](disease).
+    - What is [Marfan syndrome](disease)?
+    - Can you explain [Tourette syndrome](disease)?
+    - I need to understand [Huntington's disease](disease).
+    - What is [amyotrophic lateral sclerosis](disease)?
+    - Tell me about [Creutzfeldt-Jakob disease](disease).
+    - What is [narcolepsy](disease)?
+    - Can you explain [restless legs syndrome](disease)?
+    - I want to learn about [interstitial cystitis](disease).
+    - What is [polycystic ovary syndrome](disease)?
+    - Tell me about [pelvic inflammatory disease](disease).
+    - What is [erectile dysfunction](disease)?
+    - Can you explain [benign prostatic hyperplasia](disease)?
+    - I need to understand [urinary incontinence](disease).
+    - What is [overactive bladder](disease)?
+    - Tell me about [irritable bowel syndrome](disease).
+    - What is [ulcerative colitis](disease)?
+    - Can you explain [diverticulitis](disease)?
+    - I want to learn about [gallstones](disease).
+    - What is [cirrhosis](disease)?
+    - Tell me about [fatty liver disease](disease).
+    - What is [pancreatitis](disease)?
+    - Can you explain [hemorrhoids](disease)?
+    - I need to understand [anal fissures](disease).
+    - What is [hernia](disease)?
+    - Tell me about [appendicitis](disease).
+    - What is [peritonitis](disease)?
+    - Can you explain [septicemia](disease)?
+    - I want to learn about [toxic shock syndrome](disease).
+    - What is [Lyme disease](disease)?
+    - Tell me about [West Nile virus](disease).
+    - What is [Zika virus](disease)?
+    - Can you explain [Ebola virus](disease)?
+    - I need to understand [Hantavirus](disease).
+    - What is [rabies](disease)?
+    - Tell me about [tetanus](disease).
+    - What is [botulism](disease)?
+    - Can you explain [anthrax](disease)?
+    - I want to learn about [smallpox](disease).
+    - What is [polio](disease)?
+    - Tell me about [mumps](disease).
+    - What is [rubella](disease)?
+    - Can you explain [diphtheria](disease)?
+    - I need to understand [whooping cough](disease).
+    - What is [scarlet fever](disease)?
+    - Tell me about [rheumatic fever](disease).
+    - What is [Kawasaki disease](disease)?
+    - Can you explain [Guillain-Barre syndrome](disease)?
+    - I want to learn about [chronic fatigue syndrome](disease).
+    - What is [myalgic encephalomyelitis](disease)?
+    - can u explain [malaria](disease)
+    - tell me of [diabetes](disease)?
+    - what about [hypertension](disease).
+
+- intent: ask_prevention
+  examples: |
+    - How can I prevent the [flu](disease)?
+    - How to avoid getting a [cold](disease)?
+    - Tips to prevent [diabetes](disease)
+    - How do I stop [heart disease](disease)?
+    - How to boost [immunity](health_topic)?
+    - What [vaccines](health_topic) should I take?
+    - How to prevent [malaria](disease)?
+    - How can I prevent [food poisoning](disease)?
+    - What are ways to prevent [dengue](disease)?
+    - How to prevent [cholera](disease)?
+    - How to reduce [obesity](disease) risk?
+    - How to prevent [skin infections](disease)?
+    - What [hygiene](health_topic) steps prevent disease?
+    - How to avoid [sports injuries](health_topic)?
+    - How to prevent [back pain](symptom)?
+    - How to stay healthy while [traveling](activity)?
+    - What are preventive [checkups](health_topic)?
+    - How to prevent [pneumonia](disease)?
+    - How to reduce [allergy](disease) risk?
+    - How to keep [children](demographic) healthy?
+    - How to protect [elderly](demographic) from infections?
+    - What [vaccines for travel](health_topic)?
+    - How do I prevent [vector-borne diseases](disease_category)?
+    - How to reduce [household infection](health_topic) risk?
+    - How do I prevent [dehydration](symptom)?
+    - How to reduce transmission of [respiratory viruses](disease_category)?
+    - How to protect against [water-borne diseases](disease_category)?
+    - How to prevent [antibiotic resistance](health_topic)?
+    - How to avoid accidental [poisoning](medical_condition)?
+    - What preventive measures for [workplace health](health_topic)?
+    - Ways to lower my [cholesterol](health_metric)?
+    - What can I do to prevent [cancer](disease)?
+    - How can I protect my [mental health](health_topic)?
+    - Strategies for preventing [osteoporosis](disease).
+    - How do I safeguard my [vision](health_topic)?
+    - What's the best way to prevent [cavities](disease)?
+    - How can I reduce my risk of a [stroke](disease)?
+    - Tips for preventing [high blood pressure](disease).
+    - How to avoid [sun damage](medical_condition) to my skin?
+    - What can I do to prevent [kidney stones](disease)?
+    - How to maintain a healthy [weight](health_metric) to prevent diseases?
+    - What are the best practices for preventing [STIs](disease_category)?
+    - How can I prevent [hearing loss](symptom)?
+    - What steps can I take to prevent [dementia](disease)?
+    - How to avoid [carpal tunnel syndrome](disease)?
+    - What are some ways to prevent [gout](disease) flare-ups?
+    - How can I prevent [anemia](disease)?
+    - What's the best way to avoid getting [sick](symptom) during [winter](duration)?
+    - How to prevent [muscle cramps](symptom) during [exercise](activity)?
+    - What can I do to prevent [acid reflux](disease)?
+    - How to avoid [foodborne illnesses](disease_category)?
+    - What are the best ways to prevent [falls](medical_condition) in [older adults](demographic)?
+    - How can I prevent [computer vision syndrome](disease)?
+    - What steps can I take to prevent [identity theft](non_medical_topic)?
+    - How to avoid [jet lag](symptom) when [traveling](activity)?
+    - What are some ways to prevent [burnout](symptom) at [work](context)?
+    - How can I prevent [seasonal allergies](disease)?
+    - What's the best way to avoid [mosquito bites](medical_condition)?
+    - How to prevent [chronic pain](symptom)?
+    - What can I do to prevent [osteoporosis](disease) as I age?
+    - How to avoid [financial scams](non_medical_topic)?
+    - What are the best practices for preventing [wildfires](non_medical_topic)?
+    - How can I prevent [water damage](non_medical_topic) in my [home](context)?
+    - What steps can I take to prevent [theft](non_medical_topic) from my [car](context)?
+    - How to avoid [phishing attacks](non_medical_topic)?
+    - What are some ways to prevent [procrastination](productivity_topic)?
+    - How can I prevent [arguments](non_medical_topic) with my [partner](demographic)?
+    - What's the best way to avoid [getting lost](non_medical_topic) while [hiking](activity)?
+    - How to prevent [plagiarism](non_medical_topic) in my [essay](context)?
+    - What can I do to prevent [my phone battery from dying](non_medical_topic)?
+    - How to avoid [overdraft fees](non_medical_topic) from my [bank](context)?
+    - What are the best practices for preventing [data breaches](non_medical_topic)?
+    - How can I prevent [mold growth](non_medical_topic) in my [bathroom](context)?
+    - What steps can I take to prevent [identity fraud](non_medical_topic)?
+    - How to avoid [late fees](non_medical_topic) on my [credit card](context)?
+    - What are some ways to prevent [stress](symptom) from building up?
+    - How can I prevent [my plants from dying](non_medical_topic)?
+    - What's the best way to avoid [traffic jams](non_medical_topic)?
+    - How to prevent [rust](non_medical_topic) on my [bike](context)?
+    - What can I do to prevent [my computer from overheating](non_medical_topic)?
+    - How to avoid [getting a sunburn](medical_condition) at the [beach](context)?
+    - What are the best practices for preventing [food waste](non_medical_topic)?
+    - How can I prevent [my dog from barking](non_medical_topic)?
+    - What steps can I take to prevent [losing my keys](non_medical_topic)?
+    - How to avoid [getting scammed online](non_medical_topic)?
+    - What are some ways to prevent [feeling lonely](symptom)?
+    - How can I prevent [my cat from scratching the furniture](non_medical_topic)?
+    - What's the best way to avoid [getting a parking ticket](non_medical_topic)?
+    - How to prevent [your pipes from freezing](non_medical_topic) in the [winter](duration)?
+    - What can I do to prevent [my car from being stolen](non_medical_topic)?
+    - How to avoid [getting sick on a cruise](medical_condition)?
+    - What are the best practices for preventing [computer viruses](non_medical_topic)?
+    - How can I prevent [my basement from flooding](non_medical_topic)?
+    - What steps can I take to prevent [mail theft](non_medical_topic)?
+    - How to avoid [getting ripped off by a mechanic](non_medical_topic)?
+    - What are some ways to prevent [feeling overwhelmed](symptom)?
+    - How can I prevent [my garden from being eaten by pests](non_medical_topic)?
+    - What's the best way to avoid [getting into a car accident](non_medical_topic)?
+    - How to prevent [your home from being burglarized](non_medical_topic)?
+    - What can I do to prevent [my credit score from dropping](non_medical_topic)?
+    - How to avoid [getting food poisoning from a restaurant](disease)?
+    - What are the best practices for preventing [online harassment](non_medical_topic)?
+    - How can I prevent [my luggage from being lost by the airline](non_medical_topic)?
+    - What steps can I take to prevent [credit card fraud](non_medical_topic)?
+    - How to avoid [getting taken advantage of in a negotiation](non_medical_topic)?
+    - What are some ways to prevent [feeling burnt out](symptom)?
+    - How can I prevent [my identity from being stolen](non_medical_topic)?
+    - What's the best way to avoid [getting sick at a music festival](medical_condition)?
+    - How to prevent [your personal information from being sold online](non_medical_topic)?
+    - What can I do to prevent [my reputation from being damaged](non_medical_topic)?
+    - How to avoid [getting into debt](non_medical_topic)?
+    - What are the best practices for preventing [cyberbullying](non_medical_topic)?
+    - How can I prevent [my children from being exposed to inappropriate content online](non_medical_topic)?
+    - What steps can I take to prevent [elder abuse](non_medical_topic)?
+    - How to avoid [getting taken for a ride by a salesperson](non_medical_topic)?
+    - What are some ways to prevent [feeling anxious](symptom)?
+    - How can I prevent [my pets from getting sick](non_medical_topic)?
+    - What's the best way to avoid [getting injured at work](non_medical_topic)?
+    - How to prevent [your home from being damaged in a storm](non_medical_topic)?
+    - What can I do to prevent [my savings from being depleted](non_medical_topic)?
+    - how do i prevent [dengue](disease)?
+    - how can I prevent [the flu](disease)
+    - how to avoid the [flu](disease)?
+    - how do I avoid [dengue](disease).
+
+- intent: emergency_help
+  examples: |
+    - This is an emergency
+    - Someone collapsed
+    - I think I’m having a [heart attack](medical_condition)
+    - Please call an ambulance
+    - My friend is [choking](medical_condition)
+    - Someone is not breathing
+    - Urgent help needed
+    - Serious accident happened
+    - There’s [heavy bleeding](symptom)
+    - I need immediate help
+    - Emergency situation
+    - Life-threatening case
+    - Someone [fainted suddenly](symptom)
+    - Unconscious person
+    - My neighbor is not moving
+    - There is [severe trauma](medical_condition)
+    - What’s the emergency number?
+    - Quick, I need first aid
+    - Please help fast
+    - I need urgent medical attention
+    - Someone is having a [seizure](medical_condition) right now
+    - There's been a serious car crash
+    - Person collapsed and is turning blue
+    - There's an unconscious infant
+    - Someone [drowned](medical_condition) and is not breathing
+    - Wild animal attack — need help
+    - House fire — people trapped
+    - Person [choking](medical_condition) and can't talk
+    - Major [bleeding](symptom) after accident
+    - I need [CPR](medical_procedure) instructions now
+    - I think someone has [hypothermia](medical_condition)
+    - Possible [stroke](medical_condition), face is drooping
+    - I'm witnessing a severe [allergic reaction](medical_condition)
+    - There's been an [electric shock](medical_condition)
+    - Help, person is unresponsive
+    - I smell gas, people are dizzy
+    - Someone fell from a height
+    - There's a chemical spill
+    - I think someone has been [poisoned](medical_condition)
+    - My child swallowed something dangerous
+    - There's a fire in the building
+    - I'm trapped in a car
+    - Someone is threatening me
+    - I need the police
+    - There's a burglar in my house
+    - I'm having trouble breathing
+    - I can't feel my arm
+    - I'm having a severe [asthma attack](medical_condition)
+    - I've been stabbed
+    - I've been shot
+    - There's a gas leak
+    - I'm having chest pains
+    - I think my water broke
+    - My baby is not breathing
+    - Someone is having a diabetic emergency
+    - I've been in a car accident
+    - I'm bleeding a lot
+    - I can't stop the bleeding
+    - I'm feeling very faint
+    - I think I'm going to pass out
+    - I'm having a severe panic attack
+    - I'm feeling suicidal
+    - I'm going to hurt myself
+    - Someone is trying to break in
+    - I need help immediately
+    - This is a life or death situation
+    - I'm in danger
+    - I need medical assistance right away
+    - I'm having a medical emergency
+    - Please send help now
+    - I need an ambulance at my location
+    - My location is [123 Main Street](address)
+    - The person is not responding
+    - I don't know what to do
+    - Please guide me
+    - I need instructions for first aid
+    - Tell me what to do until help arrives
+    - How can I help the person?
+    - Is there anything I can do?
+    - I'm scared
+    - I don't want to die
+    - I need to talk to someone right now
+    - I'm having a crisis
+    - This is a critical situation
+    - I need support immediately
+    - I'm at my breaking point
+    - I can't handle this anymore
+    - Please, I need help
+    - I'm begging you, help me
+    - I'm desperate
+    - I'm in a very bad situation
+    - I need professional help now
+    - I'm having a mental health crisis
+    - I'm in a dangerous environment
+    - I need to be rescued
+    - I'm lost and I'm in danger
+    - I'm hurt and I can't move
+    - I'm trapped and I can't get out
+    - I'm in a life-threatening situation
+    - I need emergency services now
+    - Please dispatch help to me
+    - I'm at [latitude 34.0522, longitude -118.2437](location)
+    - There's an active shooter in my building
+    - I'm witnessing a crime
+    - Someone is breaking into my car
+    - I've been assaulted
+    - I'm being followed
+    - There's a suspicious person outside my house
+    - I hear gunshots
+    - There's a bomb threat
+    - I'm in a hostage situation
+    - I'm being held against my will
+    - Someone has been kidnapped
+    - I've been carjacked
+    - I'm in a natural disaster
+    - There's a tornado warning
+    - There's a hurricane coming
+    - There's an earthquake happening
+    - There's a flood in my area
+    - There's a wildfire approaching my home
+    - I'm stuck in a snowstorm
+    - I'm lost in the woods
+    - I'm stranded at sea
+    - I'm in a plane crash
+    - I'm in a train derailment
+    - I'm in a building collapse
+    - I'm in a terrorist attack
+    - I need the fire department
+    - There's a fire in my kitchen
+    - My smoke alarm is going off
+    - I smell smoke
+    - I see flames
+    - I'm trapped by fire
+    - I need a paramedic
+    - Someone is having a stroke
+    - Someone is having a heart attack
+    - Someone is having a seizure
+    - Someone is unconscious
+    - Someone is bleeding heavily
+    - Someone is having an allergic reaction
+    - Someone has a broken bone
+    - Someone has a head injury
+    - Someone has been burned
+    - Someone has been poisoned
+    - Someone has been electrocuted
+    - Someone has drowned
+    - Someone has been bitten by a snake
+    - Someone has been bitten by a spider
+    - Someone has been stung by a bee
+    - Someone has been stung by a jellyfish
+    - Someone has been attacked by an animal
+    - Someone has fallen and can't get up
+    - Someone is in labor
+    - Someone is having a miscarriage
+    - Someone is having a mental breakdown
+    - Someone is having a psychotic episode
+    - Someone is threatening to harm themselves
+    - Someone is threatening to harm others
+
+- intent: ask_wellness_tips
+  examples: |
+    - Give me some [wellness](health_topic) tips
+    - How do I live a healthy life?
+    - What are some daily habits for well-being?
+    - How can I stay positive?
+    - Tips for better lifestyle
+    - How to be happier and healthier?
+    - How can I improve my mood naturally?
+    - What are some [wellness practices](health_topic)?
+    - Tell me health advice
+    - How can I start being healthy?
+    - What are the keys to long life?
+    - I want general health tips
+    - How to reduce [stress](symptom) daily?
+    - How can I increase happiness?
+    - Give me tips for healthy routine
+    - What is [wellness](health_topic)?
+    - How do I balance work and health?
+    - How to stay motivated for health?
+    - Suggest some [self-care practices](health_topic)
+    - How to build [resilience](health_topic)?
+    - How much [water](diet_topic) should I drink?
+    - How often should I [exercise](exercise_topic)?
+    - What are good small daily habits?
+    - How to make a balanced routine?
+    - How to avoid [burnout](symptom)?
+    - How to improve [social connections](health_topic)?
+    - How to create a healthy morning routine?
+    - How to maintain [mental wellbeing](health_topic)?
+    - What lifestyle changes improve mood?
+    - How to manage energy during day?
+    - Tips for [digital detox](health_topic)
+    - I need advice on [mindfulness](health_topic)
+    - What are some good [breathing exercises](exercise_topic)?
+    - The importance of [hobbies](health_topic) for wellness
+    - How to practice [gratitude](health_topic)?
+    - What are the benefits of [meditation](health_topic)?
+    - How to get better [sleep](sleep_topic)?
+    - What's a good way to start the day?
+    - How can I improve my [posture](health_topic)?
+    - Tips for a healthy [work-life balance](productivity_topic).
+    - How to incorporate more [movement](exercise_topic) into my day?
+    - What are the benefits of [spending time in nature](activity)?
+    - How to practice [positive self-talk](health_topic)?
+    - What are some healthy ways to deal with [boredom](symptom)?
+    - How to build a strong [support system](health_topic)?
+    - What's a good evening routine for relaxation?
+    - How can I be more [present](health_topic) in my daily life?
+    - Tips for managing [screen time](health_topic).
+    - How to create a [calm and peaceful home environment](health_topic)?
+    - What are the benefits of [journaling](activity)?
+    - How to practice [mindful eating](diet_topic)?
+    - What's a good way to unwind after a long day?
+    - How can I boost my [creativity](health_topic)?
+    - Tips for a healthy [mindset](health_topic).
+    - How to let go of [negative thoughts](symptom)?
+    - What are the benefits of [laughter](health_topic)?
+    - How to build [self-confidence](health_topic)?
+    - What's a good way to show [kindness](health_topic) to myself?
+    - How can I find more [joy](symptom) in my life?
+    - Tips for a healthy [relationship](non_medical_topic) with [food](diet_topic).
+    - How to cope with [change](life_event) in a healthy way?
+    - What are the benefits of [volunteering](activity)?
+    - How to practice [forgiveness](health_topic)?
+    - What's a good way to set [healthy boundaries](health_topic)?
+    - How can I improve my [emotional intelligence](health_topic)?
+    - Tips for a healthy [social life](health_topic).
+    - How to deal with [loneliness](symptom) in a healthy way?
+    - What are the benefits of [learning new things](activity)?
+    - How to practice [patience](health_topic)?
+    - What's a good way to celebrate my [achievements](life_event)?
+    - How can I find my [purpose](health_topic) in life?
+    - Tips for a healthy [financial life](non_medical_topic).
+    - How to deal with [failure](life_event) in a healthy way?
+    - What are the benefits of [traveling](activity)?
+    - How to practice [empathy](health_topic)?
+    - What's a good way to show [gratitude](health_topic) to others?
+    - How can I improve my [communication skills](health_topic)?
+    - Tips for a healthy [family life](health_topic).
+    - How to deal with [conflict](non_medical_topic) in a healthy way?
+    - What are the benefits of [having a pet](activity)?
+    - How to practice [optimism](health_topic)?
+    - What's a good way to make [new friends](activity)?
+    - How can I improve my [self-awareness](health_topic)?
+    - Tips for a healthy [work environment](health_topic).
+    - How to deal with [rejection](life_event) in a healthy way?
+    - What are the benefits of [art and music](health_topic)?
+    - How to practice [generosity](health_topic)?
+    - What's a good way to give back to my [community](non_medical_topic)?
+    - How can I improve my [problem-solving skills](health_topic)?
+    - Tips for a healthy [spiritual life](health_topic).
+    - How to deal with [uncertainty](symptom) in a healthy way?
+    - What are the benefits of [being in a club or group](activity)?
+    - How to practice [humility](health_topic)?
+    - What's a good way to show [appreciation](health_topic) for nature?
+    - How can I improve my [decision-making skills](health_topic)?
+    - Tips for a healthy [online presence](health_topic).
+    - How to deal with [criticism](non_medical_topic) in a healthy way?
+    - What are the benefits of [setting goals](productivity_topic)?
+    - How to practice [self-discipline](health_topic)?
+    - What's a good way to build [trust](health_topic) in relationships?
+    - How can I improve my [listening skills](health_topic)?
+    - Tips for a healthy [morning ritual](health_topic).
+    - How to deal with [disappointment](symptom) in a healthy way?
+    - What are the benefits of [unplugging](activity) from technology?
+    - How to practice [vulnerability](health_topic)?
+    - What's a good way to overcome [fear](symptom)?
+    - How can I improve my [body image](health_topic)?
+    - Tips for a healthy [attitude](health_topic).
+    - How to deal with [jealousy](symptom) in a healthy way?
+    - What are the benefits of [trying new things](activity)?
+    - How to practice [self-love](health_topic)?
+    - What's a good way to find [balance](health_topic) in my life?
+    - How can I improve my [focus](productivity_topic) and [concentration](productivity_topic)?
+    - Tips for a healthy [daily routine](health_topic).
+    - How to deal with [procrastination](productivity_topic) and get things done?
+    - What are the benefits of [laughing](activity) every day?
+    - How to practice [mindful breathing](exercise_topic)?
+    - What's a good way to connect with my [inner child](health_topic)?
+    - How can I improve my [creativity](productivity_topic) and [imagination](health_topic)?
+    - give me some [wellness tips](health_topic)
+    - can u give me [wellness](health_topic) tips
+    - i need some [wellness](health_topic) tips.
+
+- intent: ask_diet
+  examples: |
+    - Tell me about the [keto diet](diet_topic)
+    - What foods are in [paleo diet](diet_topic)?
+    - What is [Mediterranean diet](diet_topic)?
+    - What’s a good diet for [weight loss](goal)?
+    - What is the [DASH diet](diet_topic)?
+    - Is [vegan diet](diet_topic) healthy?
+    - Give me [healthy eating](diet_topic) tips
+    - How many [calories](diet_topic) should I eat daily?
+    - What foods should I avoid?
+    - Give me diet plan for [heart health](goal)
+    - What are some [low carb](diet_topic) recipes?
+    - Suggest [vegan dinner](diet_topic) ideas
+    - How to plan balanced meals?
+    - What is a [protein-rich diet](diet_topic)?
+    - Is [intermittent fasting](diet_topic) safe?
+    - What is a good diet for students?
+    - How can I plan healthy meals?
+    - Tell me about [DASH diet](diet_topic) foods
+    - What are [Mediterranean](diet_topic) recipes?
+    - What should I eat to [gain muscle](goal)?
+    - How to count [macros](diet_topic)?
+    - How to reduce [sugar intake](diet_topic)?
+    - What to eat for [healthy gut](goal)?
+    - How to include more [fiber](diet_topic)?
+    - What [snacks](diet_topic) are healthy?
+    - How to read [nutrition labels](diet_topic)?
+    - How to [meal prep](diet_topic) for week?
+    - What are [plant-based protein](diet_topic) options?
+    - How to balance [carbs](diet_topic) and [protein](diet_topic)?
+    - How to choose [healthy fats](diet_topic)?
+    - I'm looking for a diet to lower [blood pressure](health_metric)
+    - What are some [anti-inflammatory](diet_topic) foods?
+    - Best diet for a [diabetic](demographic) person?
+    - How does [hydration](diet_topic) affect my diet?
+    - What are [superfoods](diet_topic)?
+    - Can you suggest a [low-sodium](diet_topic) diet?
+    - What's the deal with [gluten-free](diet_topic) diets?
+    - How much [protein](diet_topic) do I need?
+    - What are some healthy [breakfast](diet_topic) ideas?
+    - I need a [vegetarian](diet_topic) meal plan.
+    - What are the best foods for [brain health](goal)?
+    - How to get enough [calcium](diet_topic) without dairy?
+    - What are some good sources of [omega-3s](diet_topic)?
+    - I'm trying to eat more [whole foods](diet_topic). Any tips?
+    - What's the difference between [saturated](diet_topic) and [unsaturated](diet_topic) fats?
+    - Can you recommend some healthy [desserts](diet_topic)?
+    - I need a diet plan for [acne](disease).
+    - What are the best foods for [healthy skin](goal)?
+    - How to make a healthy [smoothie](diet_topic)?
+    - What are some good [pre-workout](diet_topic) snacks?
+    - I need a [post-workout](diet_topic) meal plan.
+    - What are the benefits of [drinking green tea](diet_topic)?
+    - How to make healthy [salads](diet_topic) that are not boring?
+    - What are some good [low-calorie](diet_topic) meals?
+    - I'm looking for a diet to improve my [energy levels](goal).
+    - What are the best foods for a [healthy immune system](goal)?
+    - How to cook healthily on a [budget](non_medical_topic)?
+    - What are some good [slow cooker](diet_topic) recipes?
+    - I need a [pescatarian](diet_topic) diet plan.
+    - What are the benefits of [eating fermented foods](diet_topic)?
+    - How to make healthy [soups](diet_topic)?
+    - What are some good [make-ahead](diet_topic) lunches?
+    - I'm looking for a diet to help with [inflammation](symptom).
+    - What are the best foods for [strong bones](goal)?
+    - How to make healthy [pasta](diet_topic) dishes?
+    - What are some good [air fryer](diet_topic) recipes?
+    - I need a [flexitarian](diet_topic) diet plan.
+    - What are the benefits of [eating seasonally](diet_topic)?
+    - How to make healthy [stir-fries](diet_topic)?
+    - What are some good [one-pot](diet_topic) meals?
+    - I'm looking for a diet to help with [digestion](goal).
+    - What are the best foods for [healthy hair](goal)?
+    - How to make healthy [tacos](diet_topic)?
+    - What are some good [grilling](diet_topic) recipes?
+    - I need a [mind diet](diet_topic) plan.
+    - What are the benefits of [eating organic](diet_topic)?
+    - How to make healthy [curries](diet_topic)?
+    - What are some good [baking](diet_topic) recipes?
+    - I'm looking for a diet to help with [joint pain](symptom).
+    - What are the best foods for [healthy eyes](goal)?
+    - How to make healthy [pizzas](diet_topic)?
+    - What are some good [roasting](diet_topic) recipes?
+    - I need a [TLC diet](diet_topic) plan.
+    - What are the benefits of [eating local](diet_topic)?
+    - How to make healthy [casseroles](diet_topic)?
+    - What are some good [steaming](diet_topic) recipes?
+    - I'm looking for a diet to help with [migraines](disease).
+    - What are the best foods for a [healthy heart](goal)?
+    - How to make healthy [burgers](diet_topic)?
+    - What are some good [sautéing](diet_topic) recipes?
+    - I need a [raw food diet](diet_topic) plan.
+    - What are the benefits of [eating whole grains](diet_topic)?
+    - How to make healthy [sandwiches](diet_topic)?
+    - What are some good [poaching](diet_topic) recipes?
+    - I'm looking for a diet to help with [anxiety](symptom).
+    - What are the best foods for [healthy nails](goal)?
+    - How to make healthy [wraps](diet_topic)?
+    - What are some good [broiling](diet_topic) recipes?
+    - I need a [zone diet](diet_topic) plan.
+    - What are the benefits of [eating a rainbow of colors](diet_topic)?
+    - How to make healthy [bowls](diet_topic)?
+    - What are some good [blanching](diet_topic) recipes?
+    - I'm looking for a diet to help with [depression](symptom).
+    - What are the best foods for [healthy teeth](goal)?
+    - How to make healthy [muffins](diet_topic)?
+    - What are some good [braising](diet_topic) recipes?
+    - I need a [volumetrics diet](diet_topic) plan.
+    - What are the benefits of [eating lean protein](diet_topic)?
+    - How to make healthy [pancakes](diet_topic)?
+    - What are some good [stewing](diet_topic) recipes?
+    - I'm looking for a diet to help with [fatigue](symptom).
+    - What are the best foods for [healthy gums](goal)?
+    - How to make healthy [waffles](diet_topic)?
+    - What are some good [sous vide](diet_topic) recipes?
+    - I need a [nutritarian diet](diet_topic) plan.
+    - What are the benefits of [eating healthy snacks](diet_topic)?
+    - How to make healthy [cookies](diet_topic)?
+    - What are some good [pressure cooking](diet_topic) recipes?
+    - I'm looking for a diet to help with [stress](symptom).
+    - What are the best foods for [healthy joints](goal)?
+    - what about the [keto diet](diet_topic)?
+    - tell me about [paleo diet](diet_topic).
+    - what is a [Mediterranean diet](diet_topic) like
+
+- intent: ask_exercise
+  examples: |
+    - What are best exercises for [beginners](demographic)?
+    - How many minutes should I exercise daily?
+    - Suggest a [workout plan](exercise_topic)
+    - What is good for [losing weight](goal)?
+    - How to [build muscle](goal) at home?
+    - What are [cardio](exercise_topic) exercises?
+    - How often should I exercise weekly?
+    - Suggest [stretching routines](exercise_topic)
+    - What are [low-impact](exercise_topic) exercises?
+    - How to increase [stamina](goal)?
+    - Give me a [30-minute workout](exercise_topic)
+    - What is best time to exercise?
+    - Exercises for [heart health](goal)
+    - How do I improve [flexibility](goal)?
+    - What is [yoga](exercise_topic) good for?
+    - Suggest [home workouts](exercise_topic)
+    - Is [walking](exercise_topic) enough exercise?
+    - What is [HIIT](exercise_topic)?
+    - How many steps should I take daily?
+    - Exercises without equipment
+    - How to progress with [strength training](exercise_topic)?
+    - What are good [cooldown exercises](exercise_topic)?
+    - How to recover after workout?
+    - How to avoid injury while exercising?
+    - How to combine [cardio](exercise_topic) and [strength](exercise_topic)?
+    - How to fit exercise into busy schedule?
+    - How to track workout progress?
+    - What exercises help [core strength](goal)?
+    - Is it safe to exercise during [pregnancy](demographic)?
+    - How to choose the right shoes for [running](exercise_topic)?
+    - Can you suggest some [balance exercises](exercise_topic)?
+    - I need a workout for my [upper body](body_part)
+    - What are the best [leg day](body_part) exercises?
+    - How do I properly do a [squat](exercise_topic)?
+    - What is [active recovery](exercise_topic)?
+    - What are the benefits of [swimming](exercise_topic)?
+    - I want to start [cycling](exercise_topic). Any tips?
+    - How to do a proper [push-up](exercise_topic)?
+    - What are some good [ab exercises](exercise_topic)?
+    - I'm looking for a [full-body workout](exercise_topic).
+    - What are the benefits of [dancing](exercise_topic)?
+    - I want to try [Pilates](exercise_topic). Where do I start?
+    - How to do a perfect [plank](exercise_topic)?
+    - What are some good [back exercises](exercise_topic)?
+    - I'm looking for a [workout for seniors](demographic).
+    - What are the benefits of [hiking](exercise_topic)?
+    - I want to learn [kickboxing](exercise_topic). Is it a good workout?
+    - How to do a proper [lunge](exercise_topic)?
+    - What are some good [shoulder exercises](exercise_topic)?
+    - I'm looking for a [workout for kids](demographic).
+    - What are the benefits of [jumping rope](exercise_topic)?
+    - I want to start [weightlifting](exercise_topic). What should I know?
+    - How to do a proper [deadlift](exercise_topic)?
+    - What are some good [chest exercises](exercise_to

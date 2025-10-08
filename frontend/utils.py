@@ -1,11 +1,12 @@
-import sys
-import os
-
-# Add project root to Python path
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+import sys, os
 import streamlit as st
 
-from db.db import init_db
+# Inject project root
+ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+if ROOT_DIR not in sys.path:
+    sys.path.insert(0, ROOT_DIR)
+
+from db.db import get_connection, init_db
 
 translations = {
     "en": {
@@ -14,16 +15,16 @@ translations = {
         "login": "🔐 LOGIN",
         "signup": "📝 SIGNUP"
     },
-    "te": {
-        "title": "వెల్నెస్ అసిస్టెంట్",
-        "greeting": "హలో! మీ ఆరోగ్యాన్ని ట్రాక్ చేయండి, అలవాట్లను పరిశీలించండి, మరియు మానసికంగా ఎదగండి.",
-        "login": "🔐 లాగిన్",
-        "signup": "📝 సైన్ అప్"
+    "hi": {
+        "title": "वेलनेस सहायक",
+        "greeting": "नमस्ते! अपनी सेहत पर नज़र रखें, अपनी आदतों पर विचार करें, और मानसिक रूप से आगे बढ़ें।",
+        "login": "🔐 लॉगिन",
+        "signup": "📝 साइन अप"
+
     }
 }
 
 def init_session():
-    import streamlit as st
     if "page" not in st.session_state:
         st.session_state.page = "home"
     if "lang" not in st.session_state:

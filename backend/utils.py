@@ -9,11 +9,11 @@ translations = {
         "login": "🔐 LOGIN",
         "signup": "📝 SIGNUP"
     },
-    "te": {
-        "title": "వెల్నెస్ అసిస్టెంట్",
-        "greeting": "హలో! మీ ఆరోగ్యాన్ని ట్రాక్ చేయండి, అలవాట్లను పరిశీలించండి, మరియు మానసికంగా ఎదగండి.",
-        "login": "🔐 లాగిన్",
-        "signup": "📝 సైన్ అప్"
+    "hi": {
+        "title": "वेलनेस सहायक",
+        "greeting": "नमस्ते! अपनी सेहत पर नज़र रखें, अपनी आदतों पर विचार करें, और मानसिक रूप से आगे बढ़ें।",
+        "login": "🔐 लॉगिन",
+        "signup": "📝 साइन अप"
     }
 }
 
@@ -24,3 +24,6 @@ def init_session():
     if "lang" not in st.session_state:
         st.session_state.lang = "en"
     init_db()
+
+
+    

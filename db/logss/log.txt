@@ -98,3 +98,86 @@ Implement login, registration, remember me, and forgot password functionalities 
 Allow users to update their profiles and store the preferences in the database.
 3. Language Preference Support
 Tailor chatbot responses based on the selected language and dynamically change UI elements to accommodate this.
+
+
+
+
+
+import streamlit as st
+import sys, os
+
+ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+if ROOT_DIR not in sys.path:
+    sys.path.insert(0, ROOT_DIR)
+
+from start import start_ui
+from auth import login_ui, signup_ui, forgot_password_ui, logout
+from user_profile import profile_ui
+from admin import admin_ui, is_admin
+from utils import init_session
+from backend.bot_core import get_bot_response
+
+init_session()
+
+# Sidebar
+if st.session_state.get("user_id"):
+    if st.sidebar.button("🚪 Logout"):
+        logout()
+    if st.sidebar.button("💬 Chatbot"):
+        st.session_state.page = "chatbot"
+    if is_admin():
+        if st.sidebar.button("🛠️ Admin Panel"):
+            st.session_state.page = "admin"
+
+# Routing
+if st.session_state.page == "home":
+    start_ui()
+
+elif st.session_state.page == "login":
+    login_ui()
+
+elif st.session_state.page == "signup":
+    signup_ui()
+
+elif st.session_state.page == "forgot":
+    forgot_password_ui()
+
+elif st.session_state.page == "profile":
+    profile_ui()
+
+elif st.session_state.page == "admin":
+    admin_ui()
+
+elif st.session_state.page == "chatbot":
+    if st.session_state.get("user_id"):
+        st.title("🧠 Wellness Chatbot")
+        st.markdown("Ask me about symptoms, first aid, wellness tips, or emergency contacts.")
+
+        if "chat_history" not in st.session_state:
+            st.session_state.chat_history = []
+
+        user_input = st.chat_input("Type your message here...")
+
+        if user_input:
+            bot_reply = get_bot_response(user_input)
+            st.session_state.chat_history.append(("You", user_input))
+            st.session_state.chat_history.append(("Bot", bot_reply))
+
+        for sender, message in st.session_state.chat_history:
+            st.markdown(f"**{sender}:** {message}")
+    else:
+        st.warning("🔐 Please log in to access the chatbot.")
+
+
+from db.db import log_chat  # ✅ Add this import
+
+# Inside chatbot logic
+if user_input:
+    bot_reply = get_bot_response(user_input)
+    st.session_state.chat_history.append(("You", user_input))
+    st.session_state.chat_history.append(("Bot", bot_reply))
+
+    # ✅ Log to database
+    log_chat(st.session_state.user_id, user_input, bot_reply)
+
+    नमस्ते

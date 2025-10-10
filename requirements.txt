@@ -1,10 +1,8 @@
 streamlit
 bcrypt
-pandas
-sqlite3
-transformers
-torch
-thefuzz
 deep-translator
 numpy
 scikit-learn
+transformers==4.35.2
+torch==2.0.1
+thefuzz==0.20.0

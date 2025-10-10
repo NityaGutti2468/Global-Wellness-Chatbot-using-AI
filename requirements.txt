@@ -1,8 +1,8 @@
 streamlit
-bcrypt
-deep-translator
-numpy
-scikit-learn
 transformers==4.35.2
-torch==2.0.1
+torch==2.8.0
 thefuzz==0.20.0
+deep-translator==1.11.4
+scikit-learn
+numpy
+bcrypt

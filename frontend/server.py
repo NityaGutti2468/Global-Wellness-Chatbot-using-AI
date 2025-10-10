@@ -5,7 +5,8 @@ import sys, os
 ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 if ROOT_DIR not in sys.path:
     sys.path.insert(0, ROOT_DIR)
-
+if not os.path.exists("db/db.db"):
+    import backend.init_db
 # === Imports ===
 from start import start_ui
 from auth import login_ui, signup_ui, forgot_password_ui, logout

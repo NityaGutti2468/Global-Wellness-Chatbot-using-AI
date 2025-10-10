@@ -2,3 +2,9 @@ streamlit
 bcrypt
 pandas
 sqlite3
+transformers
+torch
+thefuzz
+deep-translator
+numpy
+scikit-learn

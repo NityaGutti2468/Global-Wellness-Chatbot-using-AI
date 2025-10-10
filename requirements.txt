@@ -6,3 +6,5 @@ deep-translator==1.11.4
 scikit-learn
 numpy
 bcrypt
+plotly
+pandas

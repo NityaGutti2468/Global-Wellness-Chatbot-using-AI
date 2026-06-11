@@ -17,4 +17,5 @@ An AI-powered wellness assistant designed to support **mental**, **physical**, a
 - 🧠 **Transformer-based intent recognition** with safetensors model loading  
 - 🧪 **CLI and Streamlit UI** for flexible interaction modes  
 - ☁️ **Live deployment** on Streamlit Cloud with GitHub integration and Git LFS support
+- 📈 Leverages AI-driven insights to deliver personalized wellness recommendations while maintaining scalable, user-centric system design.
 
